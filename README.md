@@ -8,7 +8,7 @@ An Analysis of Order Ratings, Reviews, Sales, and Customer Relationship on a Bra
 
 ![Brazilian_ECommerce_Analysis_Proposal](https://user-images.githubusercontent.com/87089936/143927648-f652469f-7ab8-462a-bc5f-f0cc5a034e94.jpg)
 
-- The project aims to develop a comprehensive, multi-level analysis that includes:<br />
+-The project aims to develop a comprehensive, multi-level analysis that includes:<br />
 (1) Machine learning models to explore different features of an order that would impact review scores<br />
 (2) Forecast of monthly sales volumes by product category<br />
 (3) Customer segmentation analysis based on churn probability, and machine learning models to classify customers into categories based on their buying behavior<br />
