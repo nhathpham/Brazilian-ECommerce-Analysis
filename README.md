@@ -25,15 +25,40 @@ Data source: Brazilian e-commerce public dataset by Olist: https://www.kaggle.co
 
 <h2>II/ Results</h2>
 
-★ Customer Satisfaction Analysis <br />
+### 1. Customer Satisfaction Analysis <br />
 - Surveys report that 93% of consumers are influenced by online reviews when making purchase decisions. By leveraging its order review data, Olist can gain insights into its customers’ wants and needs, and therefore enhance its services and products to provide better customer experience and attract more merchants to the platform. Through EDA and machine learning models for classification, we are interested in identifying key features that affect a good or bad review score, using information on reviews, orders, customers, sellers, products, and payments.<br />
 
 - Classification model: <br />
 + Logistic regression
 + Random forest
-
 ![olist 1](https://user-images.githubusercontent.com/87089936/198896785-6af09e51-adf5-475a-93ef-3b94f0a8efaa.PNG)
 ![olist 2](https://user-images.githubusercontent.com/87089936/198896791-a83c72fa-1f86-446f-87c2-ad93fb131c1d.PNG)
 
+<br />
+### 2. Sales Analysis <br />
+- An EDA on sales trend and seasonality
+![olist 3](https://user-images.githubusercontent.com/87089936/198896905-735c574b-2747-4faf-a177-22a9f2ab035c.PNG)
+![olist 4](https://user-images.githubusercontent.com/87089936/198896908-91b38e22-b3ec-41f2-a1d6-d912d722f12d.PNG)
+![olist 5](https://user-images.githubusercontent.com/87089936/198896913-b2499208-207b-407a-8c9c-532e8eca66cc.PNG)
+
+### 3. Customer Segmentation <br />
+- We set out to cluster customers based on similarities in key features such as sales,  delivery times, and review scores. The goal is to use these clusters to provide a better customer experience through enhanced product suggestions and understand customer pain points
+- Feature collection:
+  - Orders: Order count, Days since last order, Product count, Sales
+  - Delivery: Early and Late order count 
+  - Payments: Average payment installments
+  - Reviews: Review count and Average review score 
 
 
+### 4. Review Sentiment Analysis <br />
+- We have a corpus of text data, where each review text is a customer’s message for the purchased product. We then transformed the score from 1 to 5 to: 
+  - Negative sentiment = Score of 3 and Below
+  - Positive sentiment = Score of 4 and Above
+- We then extract the most frequently occuring words within each category. The goal is to predict a review’s sentiment given the textual message using Machine Learning Models
+
+![image](https://user-images.githubusercontent.com/87089936/198897223-eb507031-0bd9-4bc6-a7bc-12d796f2420a.png)
+
+- Classification model accuracy:
+  - Logistic regression: 86.98%
+  - Random forest: 76.55%
+  - Recurrent neural network: 88.9%
