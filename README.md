@@ -40,6 +40,7 @@ Data source: Brazilian e-commerce public dataset by Olist: https://www.kaggle.co
 ![olist 3](https://user-images.githubusercontent.com/87089936/198896905-735c574b-2747-4faf-a177-22a9f2ab035c.PNG)
 ![olist 4](https://user-images.githubusercontent.com/87089936/198896908-91b38e22-b3ec-41f2-a1d6-d912d722f12d.PNG)
 ![olist 5](https://user-images.githubusercontent.com/87089936/198896913-b2499208-207b-407a-8c9c-532e8eca66cc.PNG)
+<br />
 
 ### 3. Customer Segmentation <br />
 - We set out to cluster customers based on similarities in key features such as sales,  delivery times, and review scores. The goal is to use these clusters to provide a better customer experience through enhanced product suggestions and understand customer pain points
@@ -48,7 +49,7 @@ Data source: Brazilian e-commerce public dataset by Olist: https://www.kaggle.co
   - Delivery: Early and Late order count 
   - Payments: Average payment installments
   - Reviews: Review count and Average review score 
-
+<br />
 
 ### 4. Review Sentiment Analysis <br />
 - We have a corpus of text data, where each review text is a customer’s message for the purchased product. We then transformed the score from 1 to 5 to: 
@@ -62,3 +63,4 @@ Data source: Brazilian e-commerce public dataset by Olist: https://www.kaggle.co
   - Logistic regression: 86.98%
   - Random forest: 76.55%
   - Recurrent neural network: 88.9%
+  <br />
