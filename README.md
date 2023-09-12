@@ -35,9 +35,9 @@ Data source: Brazilian e-commerce public dataset by Olist: https://www.kaggle.co
 ![olist 2](https://user-images.githubusercontent.com/87089936/198896791-a83c72fa-1f86-446f-87c2-ad93fb131c1d.PNG)
 
 
-<h3> 2. Sales Analysis </h3> <br /> 
-- An EDA on sales trend and seasonality
+<h3> 2. Sales Analysis </h3> 
 
+- An EDA on sales trend and seasonality
 ![olist 3](https://user-images.githubusercontent.com/87089936/198896905-735c574b-2747-4faf-a177-22a9f2ab035c.PNG)
 ![olist 4](https://user-images.githubusercontent.com/87089936/198896908-91b38e22-b3ec-41f2-a1d6-d912d722f12d.PNG)
 ![olist 5](https://user-images.githubusercontent.com/87089936/198896913-b2499208-207b-407a-8c9c-532e8eca66cc.PNG)
