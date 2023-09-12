@@ -25,7 +25,7 @@ Data source: Brazilian e-commerce public dataset by Olist: https://www.kaggle.co
 
 <h2>II/ Results</h2>
 
-### 1. Customer Satisfaction Analysis <br />
+<h3> 1. Customer Satisfaction Analysis </h3>
 - Surveys report that 93% of consumers are influenced by online reviews when making purchase decisions. By leveraging its order review data, Olist can gain insights into its customers’ wants and needs, and therefore enhance its services and products to provide better customer experience and attract more merchants to the platform. Through EDA and machine learning models for classification, we are interested in identifying key features that affect a good or bad review score, using information on reviews, orders, customers, sellers, products, and payments.<br />
 
 - Classification model:
@@ -35,7 +35,7 @@ Data source: Brazilian e-commerce public dataset by Olist: https://www.kaggle.co
 ![olist 2](https://user-images.githubusercontent.com/87089936/198896791-a83c72fa-1f86-446f-87c2-ad93fb131c1d.PNG)
 
 
-### 2. Sales Analysis <br /> An EDA on sales trend and seasonality
+<h3> 2. Sales Analysis <br /> An EDA on sales trend and seasonality</h2>
 
 ![olist 3](https://user-images.githubusercontent.com/87089936/198896905-735c574b-2747-4faf-a177-22a9f2ab035c.PNG)
 ![olist 4](https://user-images.githubusercontent.com/87089936/198896908-91b38e22-b3ec-41f2-a1d6-d912d722f12d.PNG)
